@@ -12,9 +12,11 @@
       <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/asu/eureka/server/EurekaServerApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/asu/eureka/EurekaServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ribbon-Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ribbon-Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ribbon-Consumer/src/main/java/com/asu/ribbon/consumer/RibbonCconsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ribbon-Consumer/src/main/java/com/asu/ribbon/consumer/RibbonCconsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ribbon-Consumer/src/main/java/com/asu/ribbon/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ribbon-Consumer/src/main/java/com/asu/ribbon/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/asu/feign/consumer/HystrixClientFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/src/main/java/com/asu/feign/consumer/HomeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-consumer/src/main/java/com/asu/feign/consumer/HomeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553339001085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553339777914" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-provider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
