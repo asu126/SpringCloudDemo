@@ -11,17 +11,19 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @RestController
 public class EurekaProviderApplication {
+    @Value("${content}")
+    String content;
     @Value("${server.port}")
     String port;
 
     @RequestMapping("/")
     public String home() {
-        return "Hello world ,port:" + port;
+        return "Hello world ,port:" + port + ",content=" + content;
     }
 
     @RequestMapping("/123")
     public String home123() {
-        return "Hello world 123 ,port:" + port;
+        return "Hello world 123, port:" + port + ",content=" + content;
     }
 
     public static void main(String[] args) {

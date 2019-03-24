@@ -3,9 +3,21 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+#  spring.cloud.config.uri=http://localhost:8888/
+#  eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
+#  spring.cloud.config.discovery.enabled=true
+#  spring.cloud.config.discovery.serviceId=config-server
+
 spring:
   application:
     name: eureka-provider
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        serviceId: config-server
 
 server:
   port: 8081
