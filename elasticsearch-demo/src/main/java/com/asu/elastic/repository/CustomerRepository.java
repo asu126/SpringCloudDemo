@@ -18,6 +18,5 @@ public interface CustomerRepository extends ElasticsearchRepository<Customer, St
 
     Page<Customer> findByAddress(String address, Pageable pageable);
 
-
 }
 
